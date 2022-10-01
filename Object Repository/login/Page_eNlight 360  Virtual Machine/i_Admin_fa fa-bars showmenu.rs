@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>i_IAM_fa fa-sign-out</name>
+   <name>i_Admin_fa fa-bars showmenu</name>
    <tag></tag>
-   <elementGuidId>dd139fe7-552b-4e4a-8903-cfeb1a668706</elementGuidId>
+   <elementGuidId>67f9482c-5bae-4076-96a5-c4b12f6fc2fb</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//ul[@id='myiconmenu']/li[13]/a/i</value>
+         <value>//td[@id='menuicon']/i</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>i.fa.fa-sign-out</value>
+         <value>i.fa.fa-bars.showmenu</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,38 +22,38 @@
       <name>tag</name>
       <type>Main</type>
       <value>i</value>
-      <webElementGuid>017b8ae6-44a8-4c7f-81e4-31fa870fbaf7</webElementGuid>
+      <webElementGuid>2690dbfd-afbd-427e-b5e9-697ef586cfa4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>fa fa-sign-out</value>
-      <webElementGuid>7835895a-621a-490a-8f9b-a5ff1339be29</webElementGuid>
+      <value>fa fa-bars showmenu</value>
+      <webElementGuid>a581ef09-b790-4512-934e-00f5ccb43c83</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;myiconmenu&quot;)/li[13]/a[1]/i[@class=&quot;fa fa-sign-out&quot;]</value>
-      <webElementGuid>eeaa1145-e1b7-4d35-95de-a7839e3a3158</webElementGuid>
+      <value>id(&quot;menuicon&quot;)/i[@class=&quot;fa fa-bars showmenu&quot;]</value>
+      <webElementGuid>12189167-5c65-42a1-90b0-8d3bace0aca2</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//ul[@id='myiconmenu']/li[13]/a/i</value>
-      <webElementGuid>1881cc9a-6dc9-49f4-aa75-648158f53c64</webElementGuid>
+      <value>//td[@id='menuicon']/i</value>
+      <webElementGuid>047c56a7-c6c6-40eb-810e-3232de063992</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//li[13]/a/i</value>
-      <webElementGuid>47264227-6f00-4a3b-9867-827c2dbe5d36</webElementGuid>
+      <value>//i</value>
+      <webElementGuid>5d62def5-4fb5-4d43-b324-b4e0b091ab9f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_Admin</name>
+   <name>span_Master Admin</name>
    <tag></tag>
-   <elementGuidId>c039136b-8a38-40a3-8258-f69ba9d0978b</elementGuidId>
+   <elementGuidId>7b3da169-0db6-4504-9635-cfa66984b076</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='project_chosen']/a/span</value>
+         <value>//div[@id='main']/header/ul[2]/li/a/span</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>span</value>
+         <value>a.dropdown-toggle.fw600.p15 > span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,62 +22,70 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>42742338-88f7-412f-b1c8-84188b5241b3</webElementGuid>
+      <webElementGuid>307f665d-0b3f-441b-ae4c-e7453385ada4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Admin</value>
-      <webElementGuid>34c08647-2cd2-4a9e-9496-6c7d4211e28d</webElementGuid>
+      <value>Master Admin</value>
+      <webElementGuid>70605d34-38be-4226-84b3-7861df01093a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;project_chosen&quot;)/a[@class=&quot;chosen-single&quot;]/span[1]</value>
-      <webElementGuid>7b01b4b7-4ea7-4508-890a-f381c74eab2b</webElementGuid>
+      <value>id(&quot;main&quot;)/header[@class=&quot;navbar bg-info navbar-fixed-top&quot;]/ul[@class=&quot;nav navbar-nav navbar-right&quot;]/li[@class=&quot;dropdown&quot;]/a[@class=&quot;dropdown-toggle fw600 p15&quot;]/span[1]</value>
+      <webElementGuid>9e0f99bb-03b2-4db1-9177-c0d80798e43b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='project_chosen']/a/span</value>
-      <webElementGuid>c328da4b-b72d-411e-9bc7-a185c1c2368e</webElementGuid>
+      <value>//div[@id='main']/header/ul[2]/li/a/span</value>
+      <webElementGuid>3212ab0f-7acf-47f6-8a59-015341f30e38</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='-Select Project-'])[2]/preceding::span[1]</value>
-      <webElementGuid>e6f5cf03-dcb0-4fd7-972b-def65937ffe8</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='User Logs'])[1]/following::span[1]</value>
+      <webElementGuid>435fcf15-ee48-4286-8210-791c4db24536</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='System'])[2]/preceding::span[1]</value>
-      <webElementGuid>add9b8ea-4517-411c-9262-f96c0542629d</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Debug Logs'])[1]/following::span[1]</value>
+      <webElementGuid>0447a740-edc2-4219-b020-62e8163326c4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Master Admin']/parent::*</value>
+      <webElementGuid>ca3e04e6-d2d4-4b50-9e34-4e01dae875e6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//span</value>
-      <webElementGuid>0cccb586-0091-4406-ae32-f4855ac240f5</webElementGuid>
+      <value>//ul[2]/li/a/span</value>
+      <webElementGuid>a9010e73-5617-480a-876f-9bab31c52c16</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//span[(text() = 'Admin' or . = 'Admin')]</value>
-      <webElementGuid>89962bb6-a208-4275-b66a-27db7f804cac</webElementGuid>
+      <value>//span[(text() = 'Master Admin' or . = 'Master Admin')]</value>
+      <webElementGuid>f9ba5d63-b852-48a4-9e0b-b8a22759f0b5</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>li_Rakesh-Project</name>
+   <name>a_Logout</name>
    <tag></tag>
-   <elementGuidId>e5f1f545-b5bd-48a5-b9a7-f52dc8b8ff32</elementGuidId>
+   <elementGuidId>e67ad67a-9a40-4d4a-90d3-d1211f640c17</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='project_chosen']/div/ul/li[6]</value>
+         <value>//div[@id='main']/header/ul[2]/li/ul/li[2]/a</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -21,95 +21,96 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>li</value>
-      <webElementGuid>f026ca71-cbeb-44f4-8241-590ca870140c</webElementGuid>
+      <value>a</value>
+      <webElementGuid>a09108d6-ab17-4380-b7d5-fb94ffc0270b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>http://172.16.24.74:30140/logout</value>
+      <webElementGuid>25da1e2c-53da-48a9-a502-aef7bf8f329f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>active-result result-selected</value>
-      <webElementGuid>18890e6c-3cde-4a49-b6d5-c8ab74ffa400</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>data-option-array-index</name>
-      <type>Main</type>
-      <value>5</value>
-      <webElementGuid>a7cdd105-e017-45ea-b614-df9aeb132a48</webElementGuid>
+      <value>fw600 p12 animated animated-short fadeInDown</value>
+      <webElementGuid>a560fe3c-fc38-48de-82ce-1773110ff33b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Rakesh-Project</value>
-      <webElementGuid>b1a7a26e-b274-42fc-85b7-4270c6ccbed1</webElementGuid>
+      <value> 
+                         
+                        Logout 
+                    </value>
+      <webElementGuid>7737b581-a989-4796-a6dc-f7aec263f270</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;project_chosen&quot;)/div[@class=&quot;chosen-drop&quot;]/ul[@class=&quot;chosen-results&quot;]/li[@class=&quot;active-result result-selected&quot;]</value>
-      <webElementGuid>5dfc7638-6ba7-4cc1-b5c9-3f2357a0e386</webElementGuid>
+      <value>id(&quot;main&quot;)/header[@class=&quot;navbar bg-info navbar-fixed-top&quot;]/ul[@class=&quot;nav navbar-nav navbar-right&quot;]/li[@class=&quot;dropdown open&quot;]/ul[@class=&quot;dropdown-menu dropdown-persist pn w250 bg-white&quot;]/li[@class=&quot;br-t of-h&quot;]/a[@class=&quot;fw600 p12 animated animated-short fadeInDown&quot;]</value>
+      <webElementGuid>efe13589-4a9b-49a6-9008-658a7c1b7efe</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='project_chosen']/div/ul/li[6]</value>
-      <webElementGuid>d206856f-f1f5-439f-b51d-a87c0452b19a</webElementGuid>
+      <value>//div[@id='main']/header/ul[2]/li/ul/li[2]/a</value>
+      <webElementGuid>8f5ceeeb-a659-479e-8189-f150a8edf558</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Admin'])[2]/following::li[1]</value>
-      <webElementGuid>499100fe-f9de-4875-9bd3-e5ea81383078</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Master Admin'])[1]/following::a[2]</value>
+      <webElementGuid>ef9ab46e-13bf-423a-9cc3-72383f5cbe5c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cloud Consumer'])[2]/following::li[2]</value>
-      <webElementGuid>2df1f765-eb34-4547-b876-15d08781eb4b</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Logout']/parent::*</value>
+      <webElementGuid>e6e69d40-a9be-4bed-84d4-10dd577ae97d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
+      <name>xpath:href</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='TestProjectAD'])[2]/preceding::li[1]</value>
-      <webElementGuid>ad690f0b-25e8-420b-8887-19051281cb98</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='GTO'])[2]/preceding::li[2]</value>
-      <webElementGuid>c0219821-b2a5-4c9a-b889-bbd8d0a15ac3</webElementGuid>
+      <value>//a[@href='http://172.16.24.74:30140/logout']</value>
+      <webElementGuid>ccf1c0c7-db8b-4479-94c6-ec0351a7ce30</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//li[6]</value>
-      <webElementGuid>8ba70dbd-0ae7-43f4-bdf3-7bf2afd61a57</webElementGuid>
+      <value>//li/ul/li[2]/a</value>
+      <webElementGuid>d3c4976b-0d27-43f6-b4f7-62d2493e6988</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//li[(text() = 'Rakesh-Project' or . = 'Rakesh-Project')]</value>
-      <webElementGuid>f4dca31f-1215-4b05-a032-37a3558b456b</webElementGuid>
+      <value>//a[@href = 'http://172.16.24.74:30140/logout' and (text() = ' 
+                         
+                        Logout 
+                    ' or . = ' 
+                         
+                        Logout 
+                    ')]</value>
+      <webElementGuid>5ece3ca4-84a7-4f5b-80d7-5a53dbc0216b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

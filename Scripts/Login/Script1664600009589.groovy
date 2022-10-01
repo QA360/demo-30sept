@@ -20,7 +20,7 @@ import org.openqa.selenium.Keys as Keys
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://172.16.24.74:30140/welcome')
-
+WebUI.maximizeWindow()
 WebUI.setText(findTestObject('Object Repository/login/Page_eNlight 360 - Login/input_Login_username'), 'admin')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/login/Page_eNlight 360 - Login/input_Login_password'), 'cvW8qx4B2o1gIDzvWT+0mQ==')
@@ -31,13 +31,16 @@ WebUI.click(findTestObject('Object Repository/login/Page_eNlight 360 - Dashboard
 
 WebUI.switchToWindowTitle('eNlight 360° : Virtual Machine')
 
-WebUI.click(findTestObject('Object Repository/login/Page_eNlight 360  Virtual Machine/span_Admin'))
+WebUI.selectOptionByValue(findTestObject('Object Repository/login/Page_eNlight 360  Virtual Machine/select_-All Regions-    Default RegionEastWest'), 
+    '0afbcbf1-d1e9-11ec-81fa-3aa2f4344e9c', true)
 
-WebUI.click(findTestObject('Object Repository/login/Page_eNlight 360  Virtual Machine/li_Rakesh-Project'))
+WebUI.click(findTestObject('Object Repository/login/Page_eNlight 360  Virtual Machine/i_Admin_fa fa-bars showmenu'))
 
-WebUI.click(findTestObject('Object Repository/login/Page_eNlight 360  Virtual Machine/i_Rakesh-Project_fa fa-bars showmenu'))
+WebUI.click(findTestObject('Object Repository/login/Page_eNlight 360  Virtual Machine/i_Admin_fa fa-users'))
 
-WebUI.click(findTestObject('Object Repository/login/Page_eNlight 360  Virtual Machine/i_IAM_fa fa-sign-out'))
+WebUI.click(findTestObject('Object Repository/login/Page_eNlight 360 - Dashboard/span_Master Admin'))
+
+WebUI.click(findTestObject('Object Repository/login/Page_eNlight 360 - Dashboard/a_Logout'))
 
 WebUI.closeBrowser()
 
