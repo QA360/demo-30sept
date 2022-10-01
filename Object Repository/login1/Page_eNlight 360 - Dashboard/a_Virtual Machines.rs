@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Virtual Machines</name>
+   <tag></tag>
+   <elementGuidId>10702e5b-6dcd-4f78-9469-7a6fcb9fb98d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='content']/div/div/div/div[2]/div/div[2]/div[2]/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>ebb48c36-bde4-4820-af61-6f3044baf2cb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>http://172.16.24.74:30100/index.php/v2/vm/listing</value>
+      <webElementGuid>91add626-550a-4749-a9cf-8bf40f0a1241</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-link landing_links</value>
+      <webElementGuid>51e2d64d-9e55-4420-9385-dbcec77a195c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>target</name>
+      <type>Main</type>
+      <value>_blank</value>
+      <webElementGuid>fe2476db-ec18-4a5e-8350-42f6c08a19c2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Virtual Machines</value>
+      <webElementGuid>d10f805a-ee99-4714-b4a5-9f1bb1e06ea5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;content&quot;)/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-12&quot;]/div[@class=&quot;admin-panels&quot;]/div[@class=&quot;col-md-4&quot;]/div[@class=&quot;panel  panel-primary panel-border top&quot;]/div[@class=&quot;panel-body&quot;]/div[@class=&quot;link-wrapper col-sm-6&quot;]/a[@class=&quot;btn btn-link landing_links&quot;]</value>
+      <webElementGuid>927e85f1-48f8-4678-aab6-7a400d245b84</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='content']/div/div/div/div[2]/div/div[2]/div[2]/a</value>
+      <webElementGuid>80d70bc1-0040-4acb-b7f5-00a9144666dc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Virtual Machines')]</value>
+      <webElementGuid>6fa137b9-7347-46ab-8105-8b50afaa8874</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Overview'])[1]/following::a[1]</value>
+      <webElementGuid>3c0c3b49-8ad4-49e9-a0b1-098bd54cd733</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cloud'])[1]/following::a[2]</value>
+      <webElementGuid>ad5137c7-12c8-49c0-b02d-7d4aee54207e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='IPAM'])[1]/preceding::a[1]</value>
+      <webElementGuid>bec95c47-a4a9-4f57-b7ed-78da5f7aa6a8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Networks'])[1]/preceding::a[1]</value>
+      <webElementGuid>e25007cd-07c4-4d2e-abbc-85d5a9f3390c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Virtual Machines']/parent::*</value>
+      <webElementGuid>c4a8e3b8-c9ac-49dc-bada-96462b5b99db</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[@href='http://172.16.24.74:30100/index.php/v2/vm/listing']</value>
+      <webElementGuid>6af7082d-d63f-4b22-a0f2-c69ab5f49b19</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div[2]/div[2]/a</value>
+      <webElementGuid>86798985-e155-47f4-91d5-e58e75b7f77a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'http://172.16.24.74:30100/index.php/v2/vm/listing' and (text() = 'Virtual Machines' or . = 'Virtual Machines')]</value>
+      <webElementGuid>78c37f42-d632-479d-a4f4-085126fc5c23</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

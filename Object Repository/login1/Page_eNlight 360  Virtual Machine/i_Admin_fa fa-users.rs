@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_Admin_fa fa-users</name>
+   <tag></tag>
+   <elementGuidId>c087979a-2974-4648-a78f-626aeff66300</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//ul[@id='myiconmenu']/li[12]/a/i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>i.fa.fa-users</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>5c1f77d7-7e7b-4204-97ff-4354acbd5ba1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fa fa-users</value>
+      <webElementGuid>8fd1d141-6ac6-4e20-97be-557a07870148</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;myiconmenu&quot;)/li[12]/a[1]/i[@class=&quot;fa fa-users&quot;]</value>
+      <webElementGuid>7d211b7a-e53b-432f-9281-699122c42f48</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//ul[@id='myiconmenu']/li[12]/a/i</value>
+      <webElementGuid>a928958a-d735-46ce-a35f-8d86c8794dd2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[12]/a/i</value>
+      <webElementGuid>2417e4d4-f345-4f01-bb9c-15fc50cb4f44</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
